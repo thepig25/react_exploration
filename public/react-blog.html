@@ -11,8 +11,7 @@
 
         <h1>React Blog Example</h1>
         <hr/>
-        <div id="container1"></div>
-        <div id="container2"></div>
+        <div id="content"></div>
         <hr/>
 
 
@@ -22,21 +21,6 @@
         <!-- Application components, compiled from JSX. -->
         <script src="build/ReactBlog.js"></script>
 
-        <script type="text/javascript">
-
-
-            React.renderComponent(
-                ReactBlog(),
-                document.getElementById('container1')
-            );
-
-            React.renderComponent(
-                ReactBlog({ name: 'Ciaran!' }),
-                document.getElementById('container2')
-            );
-
-
-        </script>
 
     </body>
 
