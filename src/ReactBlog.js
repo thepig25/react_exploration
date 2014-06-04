@@ -5,10 +5,10 @@
  *
  * @jsx React.DOM
  * */
-var HelloWorld = React.createClass({
+var ReactBlog = React.createClass({displayName: 'ReactBlog',
     render: function () {
         return (
-          <h2>{'Hello ' + (this.props.name || 'World') + '!'}</h2>
+          React.DOM.h2(null, 'React ' + (this.props.name || 'Blog') + '!')
         );
     }
 });

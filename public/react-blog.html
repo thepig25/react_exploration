@@ -3,13 +3,13 @@
 
     <head>
 
-        <title>React - Hello World</title>
+        <title>React Blog</title>
 
     </head>
 
     <body>
 
-        <h1>Hello World Tests</h1>
+        <h1>React Blog Example</h1>
         <hr/>
         <div id="container1"></div>
         <div id="container2"></div>
@@ -20,25 +20,21 @@
         <script src="bower_components/react/react.min.js"></script>
 
         <!-- Application components, compiled from JSX. -->
-        <script src="build/hello-world/HelloWorld.js"></script>
+        <script src="build/ReactBlog.js"></script>
 
         <script type="text/javascript">
 
-            // Run the app, below syntax is JS, not JSX.
-            // This is so I can show how I'd integrate React into an existing app, that's JS.
-            console.time('helloWorldApp');
 
             React.renderComponent(
-                HelloWorld(),
+                ReactBlog(),
                 document.getElementById('container1')
             );
 
             React.renderComponent(
-                HelloWorld({ name: 'Steve!' }),
+                ReactBlog({ name: 'Ciaran!' }),
                 document.getElementById('container2')
             );
 
-            console.timeEnd('helloWorldApp');
 
         </script>
 
