@@ -1,0 +1,33 @@
+/* Foundation app overrides.*/
+
+table {
+	width: 100%;
+}
+
+td {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input {
+	width: auto;
+}
+.angularWrapper button{
+	padding:0.5rem;
+	font-size: 0.7rem;
+}
+.angularWrapper .filterPageLength{
+	width:50px;
+	float: left;
+	margin-left: 10px;
+	height: 25px;
+}
+.angularWrapper .buttonPageSet{
+	float: left;
+
+}
+.angularWrapper .panel{
+	padding: 3.25rem !important;
+}
