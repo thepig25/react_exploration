@@ -19,4 +19,5 @@ Pros and Cons so far
 - Lack of Two way binding [React Two Way Binding](http://facebook.github.io/react/docs/two-way-binding-helpers.html).
 - Inline Styling?? [React Inline Styling](http://facebook.github.io/react/tips/inline-styles.html).
 - Need for backbone to define model. Might create a lot of code for a simple task. Flux can mitigate this. 
+- JSHINT editor complaints. 
 
