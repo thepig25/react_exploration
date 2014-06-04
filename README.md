@@ -11,7 +11,7 @@ Pros and Cons so far
 -   Easy to pick up.
 -   Great Documentation. 
 -   Unit Testing
--   Creat components 
+-   Create reuasable configurable components 
 
 ### Cons
 
